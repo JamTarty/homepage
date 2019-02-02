@@ -114,8 +114,11 @@ input[type=text] {
 	font-size: 110%;
     text-align: inherit;
     font-weight: 400;
+    color: transparent;
+    text-shadow: 0 0 0 #cecece;
     background-color: var(--bg-color);
-    color: var(--text-color);
+    &:focus {
+      outline: none;
 }
 
 #weather {
