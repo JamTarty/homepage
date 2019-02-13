@@ -18,8 +18,9 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 
+    /* fade in -delete to use-
     user-select: none;
-    animation: fadein 1s;
+    animation: fadein 0s;
 }
 
 @keyframes fadein {
@@ -31,7 +32,7 @@ body {
         opacity: 1;
     }
 }
-
+*/
 #logo {
     padding-top: 10vh;
     text-align: center;
